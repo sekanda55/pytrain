@@ -1,14 +1,3 @@
-""" import turtle
-
-t = turtle.Turtle()
-t.forward(20)
-t.left(90)
-t.back(20)
-t.left(90)
-t.forward(20)
-
-turtle.done() """
-
 NBRMAGIK = 10
 
 def demanderNbreMagique() :
