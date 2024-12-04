@@ -1,0 +1,40 @@
+<div class="budget-funding">
+    <div class="budget-intro">{{ body }} </div>
+    <div class="budget-header">
+        <div class="budget-title">{{ field_budget_label }} </div>
+        <div class="budget-amount">{{ field_total_budget }} </div>
+    </div>
+    <div class="budget-breakdown">
+        <div class="chart-title"> {{ field_budget_breakdown_label }} </div>
+        <div class="flex-bar">
+            <img src="/web/sites/default/files/bar1.png" alt="AFA" />
+        </div>
+        <div class="flex-bar-info">
+            <div class="flex-bar-info-item">
+                <div class="flex-bar-info-content">
+                    {{ field_budget_line_item }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="recipient-type">
+        <div class="chart-title">{{ field_funding_per_recipient_type }} </div>
+        <div class="flex-bar">
+            <img src="/web/sites/default/files/bar3.png" alt="AFA" />
+        </div>
+        <div class="flex-bar-info"> {{ field_funding_line_item }}</div>
+    </div>
+    
+    <div class="funding-by-region">
+        <div class="funding-by-region-title">{{ field_funding_by_region_label }}</div>
+        <div class="funding-map">
+            <img src="/web/sites/default/files/map.png" alt="AFA" />
+        </div>
+    </div>
+
+
+
+</div>
+</div>
