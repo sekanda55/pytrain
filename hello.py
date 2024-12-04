@@ -1,5 +1,4 @@
-NBRMAGIK = 10
-
+NBRMAGIK = 20
 def demanderNbreMagique() :
     VIEDECHANCE = 3
     nbr = input("Dévinez le nombre magique :")
